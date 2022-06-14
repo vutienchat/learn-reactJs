@@ -1,0 +1,22 @@
+.ant-image-preview-img {
+  display: inline-block;
+}
+svg {
+  vertical-align: unset !important;
+}
+.ant-image-mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  opacity: 0;
+  border-radius: 100%;
+  transition: opacity 0.3s;
+}
